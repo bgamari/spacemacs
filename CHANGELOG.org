@@ -1,4 +1,8 @@
 * Release 0.105.x
+** 0.105.22
+*** Fixes
+- =haskell= layer
+  - Do not enable =haskell-tags-on-save= in default configuration to avoid long hangs on save in large projects.
 ** 0.105.21 (2016/06/08)
 *** Fixes
 - Fix hybrid state when escaping to normal state
